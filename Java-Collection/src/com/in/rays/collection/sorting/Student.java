@@ -14,7 +14,7 @@ public class Student {
 	}
 	
 	public String toString() {
-		return "name :" + name + "roll : " + roll + "balance :" +  balance;
+		return "name :" + name + "roll : " + roll + "balance :" + balance;
 		
 	}
 
