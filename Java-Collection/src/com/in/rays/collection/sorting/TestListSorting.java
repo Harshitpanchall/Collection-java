@@ -17,7 +17,7 @@ public class TestListSorting {
 		Collections.sort(list);
 		System.out.println(list);
 		
-		Collections.shuffle(list);
+		Collections.shuffle(list); // charater new on your console put
 		System.out.println(list);
 		
 	}

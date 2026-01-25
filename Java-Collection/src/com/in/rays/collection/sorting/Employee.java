@@ -3,20 +3,19 @@ package com.in.rays.collection.sorting;
 public class Employee {
 	
 	private String name;
-	private int id;
-	private double balance;
+	private int age;
+	private double salary;
 	
-	public Employee(String name, int id, double balance) {
+	public Employee(String name, int age, double salary) {
 		this.name = name;
-		this.id = id;
-		this.balance = balance;
+		this.salary = salary;
+		this.age = age;
 		
 	}
 	
 	public String toString() {
-		return "name:" + name + "id :" + id + "balance :" + balance;
+		return "name : " + name + " " + "salary : " + salary + " " + "age : " + age;
 		
 	}
-	
 
 }
